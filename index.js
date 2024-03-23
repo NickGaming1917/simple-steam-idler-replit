@@ -2,9 +2,9 @@ const steamUser = require('steam-user');
 const steamTotp = require('steam-totp');
 const keep_alive = require('./keep_alive.js')
 
-var username = process.env.username2;
-var password = process.env.password2;
-var shared_secret = process.env.shared2;
+var username = process.env.username;
+var password = process.env.password;
+var shared_secret = process.env.shared;
 
 var games = [699130, 12130];  // Enter here AppIDs of the needed games
 var status = 1;  // 1 - online, 7 - invisible
